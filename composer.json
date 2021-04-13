@@ -1,0 +1,6 @@
+{
+    "name": "meta-box/support",
+    "description": "Helpers for Meta Box plugins",
+    "type": "library",
+    "license": "GNU GPL-2.0"
+}
