@@ -16,6 +16,9 @@ class Data {
 			'wp_template_part',
 			'wp_global_styles',
 			'wp_navigation',
+			'wp_template',
+			'wp_template_part',
+			'wp_global_styles',
 
 			// Meta Box post types.
 			'mb-post-type',
@@ -42,6 +45,8 @@ class Data {
 			'link_category',
 			'nav_menu',
 			'post_format',
+			'wp_theme',
+			'wp_template_part_area',
 			'mb-views-category',
 		];
 		$taxonomies = get_taxonomies( [], 'objects' );
