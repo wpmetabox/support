@@ -1,7 +1,7 @@
 {
     "name": "wpmetabox/support",
     "description": "Helpers for Meta Box plugins",
-    "license": "GNU GPL-2.0",
+    "license": "GPL-2.0-or-later",
     "homepage": "https://metabox.io",
     "autoload": {
         "psr-4": {
