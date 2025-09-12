@@ -3,7 +3,7 @@ namespace MetaBox\Support;
 
 class Data {
 	public static function get_post_types(): array {
-		$unsupported = $this::unsupported_post_types();
+		$unsupported = self::unsupported_post_types();
 		$post_types = get_post_types( [], 'objects' );
 		$post_types = array_diff_key( $post_types, array_flip( $unsupported ) );
 
